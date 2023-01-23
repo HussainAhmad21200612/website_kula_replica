@@ -1,0 +1,146 @@
+.navi{
+    background: black;
+    top:-10px;
+    height:80px;
+    width:100%;
+    display: flex;
+    padding-top: 10px;;
+    color: antiquewhite;
+    margin-left: -10px;
+    padding-left: 70px;
+    position: fixed;
+}
+.image{
+    width:10%;
+    text-align: center;
+    margin-top:18px;
+    margin-bottom: 6px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+li{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    padding: 12px 12px 10px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 0;
+}
+i{
+    margin-left: 10px;
+    color: antiquewhite;
+    transition: transform 0.5s;
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    height:55px;
+    width:140px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(64, 111, 165);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.btn:hover{
+    background-color: rgb(119, 172, 233);
+    border-width: 3px;
+    border-color: rgb(103, 91, 91);
+}
+li:hover i{
+    transform: rotate(180deg);
+}
+li:hover{
+    
+    border-radius: 5px;
+    background-color: rgb(51, 47, 42);
+}
+.out{
+    
+   
+    
+}
+/* .outer-box{
+    
+    
+    /* flex-direction: column; */
+
+.top{
+    flex-direction: column;
+    width:10%;
+    
+}
+.con{
+    padding-left: 100px;
+    display: flex;
+    margin:80px;
+    text-align: justify;
+    position: relative;
+}
+.box{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+/* #side1,#side2,#side3{
+    
+    
+    /* position: absolute;  
+    
+    
+} 
+*/
+
+#vid1{
+    
+    margin-top: 90px;
+    width: 73%;
+    border-radius: 30px;
+    z-index: 1; 
+    transform: z-index 2s;
+}
+#vid2{
+    border-radius: 30px;
+     position: absolute; 
+     top:-506px;
+     width: 70%;
+     z-index: -1; 
+}
+#vid3{
+    border-radius: 30px;
+     /* position: absolute;  */
+     
+     position: absolute; 
+     top: -506px;
+     width: 70%;
+     z-index: -1; 
+    overflow: hidden;
+}
+.edit{
+    position: relative;
+    /* overflow: hidden; */
+}
+.new{
+    position: absolute;
+}
+h3{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Mulish', sans-serif;
+margin-bottom: 0px;
+}
+h1{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-size: 80px;
+}

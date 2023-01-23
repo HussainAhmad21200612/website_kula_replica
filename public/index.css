@@ -1,0 +1,145 @@
+.navi{
+    background: black;
+    top:-10px;
+    height:80px;
+    width:100%;
+    display: flex;
+    padding-top: 10px;;
+    color: antiquewhite;
+    margin-left: -10px;
+    padding-left: 40px;
+    padding-right: 60px;
+    position: fixed;
+    z-index: 1;
+}
+.image{
+    font-size: 40px;
+    text-align: center;
+    margin-top:16px;
+    margin-bottom: 6px;
+}
+.image:hover{
+    border:5px;}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+li{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    padding: 12px 15px 10px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 0;
+}
+i{
+    margin-left: 10px;
+    color: antiquewhite;
+    transition: transform 0.5s;
+}
+
+.btn{
+    margin-left: 500px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    height:55px;
+    width:140px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(64, 111, 165);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.btn:hover{
+    background-color: rgb(119, 172, 233);
+    border-width: 3px;
+    border-color: rgb(103, 91, 91);
+}
+li:hover i{
+    transform: rotate(180deg);
+}
+li:hover{
+    
+    border-radius: 5px;
+    background-color: rgb(51, 47, 42);
+}
+
+.top{
+    width:25%;
+    text-align: left;
+    margin-bottom: 30%;
+    
+}
+.con{
+    padding-left: 100px;
+    display: flex;
+    margin:80px;
+    text-align: justify;
+    position: relative;
+}
+.box{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+
+#vid1{
+    
+    margin-top: 90px;
+    border-radius: 40px;
+    width: 50%;
+    z-index: 1; 
+    background-color: white;
+    border-color: white;
+}
+#vid2{
+    border-radius: 30px;
+     position: absolute; 
+     top:-379px;
+     width: 50%;
+     z-index: -1; 
+}
+#vid3{
+    border-radius: 30px;
+     position: absolute; 
+     top: -398px;
+     width: 50%;
+     z-index: 1; 
+    overflow: hidden;
+}
+.edit{
+    position: relative;
+}
+.new{
+    position: absolute;
+}
+h3{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Mulish', sans-serif;
+margin-bottom: 0px;
+color: rgb(168, 93, 168);
+font-size: 2.5em;
+}
+h1{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-size: 6em;
+color: black;
+}
+p{
+    color:grey;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Quicksand', sans-serif;
+line-height: 1.5em;
+font-size: 1.5em;
+}
